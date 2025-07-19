@@ -10,7 +10,7 @@ function clearDisplay() {
     display.value = "";
 }
 
-function deleteOnevalue() {
+function deleteOneValue() {  /* Arreglo CamelCase de la función "deleteOneValue()" */
     display.value = display.value.toString().slice(0,-1);
 }
 
